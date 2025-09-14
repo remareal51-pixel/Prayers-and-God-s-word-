@@ -1,14 +1,3 @@
-echo 'import React, { useEffect } from "react";
-import { View, Text, Button, FlatList, SafeAreaView, Linking, Alert } from "react-native";
-import { AdMobBanner, AdMobInterstitial } from "expo-ads-admob";
-
-const FACEBOOK_PAGE = "https://www.facebook.com/profile.php?id=100064200726828";
-const SUPPORT_LINK = "https://your-landing-page.example/offers";
-
-const SEED_PRAYERS = [
-  { id: "ember_001", title: "Ember Months Prayer — Safety & Breakthrough", body: "Heavenly Father, thank You for bringing me into these ember months. Keep me and my family safe, and open doors of prosperity. Amen." },
-  { id: "day_001", title: "Day Prayer — Favor & Strength", body: "Lord, as I begin this day, go before me. Grant me strength, wisdom, and favor. Amen." },
-  { id: "night_001", title: "Night Prayer — Peaceful Rest", body: "Father, thank You for today. As I lay down to sleep, surround me with Your peace. Amen." }
 ];
 
 export default function App() {
